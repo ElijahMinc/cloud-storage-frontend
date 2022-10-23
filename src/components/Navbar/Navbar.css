@@ -1,0 +1,39 @@
+.navbar{
+   display: flex;
+   justify-content: space-between;
+   gap: 5px;
+}
+
+.navbar__item{
+   display: flex;
+
+}
+.navbar__item:first-child{
+   flex-direction: column;
+   align-items: flex-start;
+   gap: 10px;
+}
+.navbar__item:nth-child(2){
+   min-width: 300px;
+   align-self: center;
+   height: 40px;
+}
+
+
+
+.navbar__button{
+   border: 1px solid var(--color-light-text-primary);
+   border-radius: 14px;
+   
+   outline: none;
+   background: none;
+   padding: 5px 10px;
+
+   cursor: pointer;
+
+   color: var(--color-light-text-primary);
+}
+
+#file{
+   display: none;
+}
